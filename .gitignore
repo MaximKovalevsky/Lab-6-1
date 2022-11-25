@@ -1,0 +1,4 @@
+*.txt
+error.jpg
+!help.txt
+start.*
