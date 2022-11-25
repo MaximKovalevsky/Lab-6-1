@@ -12,11 +12,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 include_directories("inc/")			 # указываем, где искать файлы заголовков
 
-add_executable("${PROJECT_NAME}" main.cpp
-								 inc/inputMatrix.hpp
-								 src/inputMatrix.cpp
-								src/obrabotkaMatrix.cpp
-								inc/obrabotkaMatrix.hpp
-								inc/outputMatrix.hpp
-								src/outputMatrix.cpp)	# добавить исполняемый файл
+add_executable("${PROJECT_NAME}" Lab7.cpp
+								 inputMatrix.hpp
+								 inputMatrix.cpp
+								obrabotkaMatrix.cpp
+								obrabotkaMatrix.hpp
+								outputMatrix.hpp
+								outputMatrix.cpp)	# добавить исполняемый файл
 								 
